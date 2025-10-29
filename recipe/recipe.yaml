@@ -19,7 +19,7 @@ build:
   number: 0
   skip:
     - win
-    - osx
+    - osx and (not arm64)
 
 requirements:
   build:
