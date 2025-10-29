@@ -28,12 +28,14 @@ requirements:
         - python
         - cross-python_${{ target_platform }}
         - maturin >=1.5,<2.0
+        - pip
     - ${{ stdlib("c") }}
     - ${{ compiler('rust') }}
     - cargo-bundle-licenses
   host:
     - python
     - maturin >=1.5,<2.0
+    - pip
   run:
     - python
     - pyyaml
