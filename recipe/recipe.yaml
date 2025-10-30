@@ -19,16 +19,9 @@ build:
   number: 2
   skip:
     - win
-    - osx and (not arm64)
 
 requirements:
   build:
-    - if: build_platform != target_platform
-      then:
-        - python
-        - cross-python_${{ target_platform }}
-        - maturin >=1.5,<2.0
-        - pip
     - ${{ stdlib("c") }}
     - ${{ compiler('rust') }}
     - cargo-bundle-licenses
