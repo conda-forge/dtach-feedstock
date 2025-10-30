@@ -16,10 +16,9 @@ build:
   python:
     entry_points:
       - tach = tach.start:start
-  number: 1
+  number: 2
   skip:
     - win
-    - osx
 
 requirements:
   build:
