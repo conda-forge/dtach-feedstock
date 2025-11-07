@@ -1,5 +1,5 @@
 context:
-  version: "0.31.1"
+  version: "0.31.2"
 
 package:
   name: dtach
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/d/dtach/dtach-${{ version }}.tar.gz
-    sha256: 4802a0d87118bc9a266af15150bfb9516768e2af00bee3ca30bb7c56398ded8e
+    sha256: 87e6f1591eede62fbdbfb292ce98604a28706c6ac68b2b181dbf40795fdad912
 
 build:
   script:
